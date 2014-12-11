@@ -1,0 +1,89 @@
+﻿.collapseTitle {
+    font-size: 11pt;
+    cursor: pointer;
+    border-left: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    overflow-x: hidden;
+    position: relative;
+}
+
+.collapseTitleText {
+    width: 100%;
+    display: block;
+    color: #369;
+}
+
+.collapseTitleDivider {
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #fff;
+    right: 24px;
+    width: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.collapseTitleDividerArrow {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background: url(../Images/Style/dd_arrow.gif) no-repeat;
+}
+
+    .collapseTitleDividerArrow:hover {
+        background-position: 0 100%;
+    }
+
+.collapseTableItemHBorder {
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-width: 1px 0 0 0;
+}
+
+.collapseTableHeader {
+     /*border-left: 1px solid rgb(184, 184, 184);*/
+    border-right: 1px solid rgb(184, 184, 184);
+    padding: 2px 5px 2px;
+}
+
+.collapseItemB {
+    font-size: 10pt;
+    /*border-left: 1px solid rgb(184, 184, 184);*/
+    border-right: 1px solid rgb(184, 184, 184);
+    border-top: 1px solid rgb(184, 184, 184);
+}
+
+.collapseItemAInner {
+    padding: 2px 7px 2px;
+}
+
+.collapseItemBInner {
+    padding: 9px 7px 9px;
+}
+
+.refTitle {
+    text-overflow: ellipsis;
+    font-weight: 600;
+    line-height: 1.5em;
+    height: 3em; 
+    overflow: hidden;
+}
+
+#refTableContainer{
+    height : 380px;
+    width: 410px;
+    overflow-y: scroll;
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    border-left: 1px solid rgb(184, 184, 184);
+    margin-bottom: 10px;
+}
+
+.refItemInnerTitle{
+    color: #696969;
+    font-weight: bold;
+}

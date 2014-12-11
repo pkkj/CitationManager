@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <title>Citation Manager</title>
+    <link rel="stylesheet" href="../Styles/main.css" type="text/css" />
+    <link rel="stylesheet" href="../Styles/RefList.css" type="text/css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+
+    <script src="../TS/Data.js"></script>
+    <script src="../TS/RefDataModel.js"></script>
+    <script src="../TS/Utils.js"></script>
+    <script src="../TS/CollapseTable.js"></script>
+    <script src="../TS/Global.js"></script>
+    <script src="../TS/GoogleSearchUi.js"></script>
+</head>
+<body>
+
+    <div id="searchInGoogleForm">
+        <div class="AppTitle">Search a paper in Google Scholar:</div>
+        <div class="row">
+            Please provide following information:
+        </div>
+        <div class="row">
+            <div class="field">Keyword: </div>
+            <input id="searchInGoogle_title" role="textbox" style="width: 270px" />
+        </div>
+        <div class="row">
+            <div class="field">Author: </div>
+            <input id="searchInGoogle_author" role="textbox" style="width: 270px" />
+        </div>
+        <div id="searchInGoogleForm_searching" style="display:none; margin-top:5px; margin-bottom:5px">
+            Searching....
+        </div>
+        <div id="resultContainer" style="display:none">
+        </div>
+        <div class="row">
+            <button id="searchInGoogle_search" style="margin-right: 20px">Search</button>
+            <button id="searchInGoogle_back">Back</button>
+        </div>
+    </div>
+
+</body>
+</html>

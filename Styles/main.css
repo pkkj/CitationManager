@@ -1,0 +1,297 @@
+﻿/******************************************************************
+Base
+******************************************************************/
+html {
+    overflow: hidden;
+}
+
+body {
+    color: #262626;
+    margin: 10px 15px 10px 15px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    height: 100%;
+    max-height: 100%;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif, 'Microsoft YaHei', Meiryo;
+    font-size: 9pt;
+}
+
+div.clear {
+    clear: both;
+}
+
+.roundedCorners {
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.shadow {
+    -webkit-box-shadow: 4px 4px 8px #adadad;
+    -moz-box-shadow: 4px 4px 8px #adadad;
+    -o-box-shadow: 4px 4px 8px #adadad;
+    box-shadow: 4px 4px 8px #adadad;
+}
+/******************************************************************
+Typography
+******************************************************************/
+body {
+    color: #262626;
+}
+
+h1 {
+    font-family: "Segoe WP Light", "Segoe UI", "Arial", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+h2, h3, h4, h5, h6, th {
+    font-family: "Segoe WP Semibold", "Segoe UI", "Arial", sans-serif;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+h3, h4, h5, h6 {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4, h5, h6 {
+    font-weight: normal;
+}
+
+form, input, select, button, textarea {
+    line-height: 13px;
+}
+
+input, textarea {
+    /*font-size: 11px;*/
+    line-height: 13px;
+}
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+}
+/******************************************************************
+Links
+******************************************************************/
+a {
+    color: #336699;
+    text-decoration: none;
+}
+
+    a:focus, a:hover, a:active {
+        text-decoration: underline;
+    }
+/******************************************************************
+Grouping
+******************************************************************/
+ul {
+    margin-left: 1em;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #ebebeb;
+    background-color: #ebebeb;
+    clear: both;
+}
+/******************************************************************
+Embedded
+******************************************************************/
+img {
+    border: none;
+}
+/******************************************************************
+Forms
+******************************************************************/
+form {
+    clear: both;
+}
+
+legend {
+    margin: 0.2em 0;
+}
+
+fieldset {
+    margin: 0 0 12px 0;
+    padding: 0 3px;
+    border: none;
+}
+
+input, textarea, select {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+}
+
+    input[type="text"], input[type="password"], textarea, select {
+        width: 100%;
+    }
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button, input[type="submit"], input[type="button"] {
+    border: 1px solid #ababab;
+    background: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 13px;
+    -moz-box-sizing: border-box; /* Firefox */
+}
+
+button, input[type="button"] {
+    padding: 6px 16px 6px 16px;
+}
+
+    button:focus, button:hover,
+    input[type="submit"]:focus, input[type="submit"]:hover,
+    input[type="button"]:focus, input[type="button"]:hover {
+        border-color: #7eB4ea;
+        background: #e5f1fc;
+        text-decoration: none;
+    }
+
+    button:active, input[type="submit"]:active, input[type="button"]:active {
+        border-color: #569de5;
+        background: #cee5fc;
+    }
+
+label {
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+input[type="radio"] {
+    margin-right: 2px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], input[type="button"], textarea, select {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#toastMessage {
+    position: absolute;
+    height: 80px;
+    right:0px;
+    left: 0px;
+    z-index: 100;
+    background-color: #EFEBEF;
+    bottom: 0px;
+    display: none;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-top-color:#cac5c5;
+}
+
+#message {   
+    font-size: medium;
+    padding-left:20px;
+    color: #858484;
+    font-size:15px;
+   
+}
+
+.toast .closeBtn {
+    width: 100%;
+    margin-bottom:15px;  
+}
+
+#closeImage {
+    float:right;
+    cursor: pointer;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.AppTitle {
+    font-size: 16pt;
+    font-weight:600;
+    color: #505050;
+    margin-bottom: 15px;
+
+}
+
+#addReferenceForm .field {
+    font-weight:600;
+    margin-right: 10px;
+}
+
+#addReferenceForm .row {
+   margin-bottom: 8px;
+}
+
+#searchInGoogleForm .field {
+    font-weight:600;
+    margin-right: 10px;
+    width: 50px;
+}
+#searchInGoogleForm .row {
+   margin-bottom: 5px;
+}
+#searchInGoogleForm .searchResultRefTitle{
+    font-size: 10pt;
+    font-weight: 600;
+    color: #369;
+}
+#searchInGoogleForm .searchResultItem {
+    padding: 5px 10px 5px;
+    border-top: 1px solid rgb(184, 184, 184);
+    border-left: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    width: 400px;
+}
+#searchInGoogleForm .searchResultItemInner {
+    float: left; 
+    margin-left: 8px; 
+    width: 370px;
+}
+
+#searchInGoogleForm  #resultContainer {
+
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 422px;
+    margin-bottom:10px;
+}
+
+#searchInGoogleForm .insertIcon {
+    float:left;
+    margin-top: 5px;
+    height:20px;
+    width:20px;
+    cursor:pointer;
+}
+
+#controlPanel .row {
+   margin-bottom: 8px;
+}
+#controlPanel .helpText {
+    font-size: 10pt;
+    font-weight:600;
+    margin-bottom: 3px;
+}
